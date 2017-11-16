@@ -27,8 +27,6 @@ namespace Test
         {
             var builder = new EmployeeTestBuilder();
 
-            var bornDate = new DateTime(DateTime.Now.Year - 23, 11, 20);
-
             var employee = builder
                 .WithName("Mary")
                 .HasAge(23)
@@ -42,8 +40,6 @@ namespace Test
         public void Employee_WithMoreThan30YearsOld_ShouldHave85PercentOfHisGrossSalary()
         {
             var builder = new EmployeeTestBuilder();
-
-            var bornDate = new DateTime(DateTime.Now.Year - 35, 11, 20);
 
             var employee = builder
                 .WithName("Samuel")
