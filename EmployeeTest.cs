@@ -8,7 +8,7 @@ namespace Test
     public class EmployeeTest
     {
         [TestMethod]
-        public void Employee_LessThanEighteenYearsOld_ShouldThorowExceptionOnCalculatingSalary()
+        public void Employee_LessThanEighteenYearsOld_ShouldThrowExceptionOnCalculatingSalary()
         {
             var builder = new EmployeeTestBuilder();
 
