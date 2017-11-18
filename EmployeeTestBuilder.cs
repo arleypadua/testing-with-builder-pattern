@@ -7,7 +7,7 @@ namespace Test
 {
     public class EmployeeTestBuilder
     {
-        public static Employee _employee;
+        private Employee _employee;
         public EmployeeTestBuilder()
         {
             _employee = new Employee();
